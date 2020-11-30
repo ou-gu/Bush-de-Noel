@@ -173,7 +173,7 @@ p {
 /*----------------- Site Titele ------------*/
 
 main .site-title {
-  background: url("../assets/BuchedeNoel-01.jpg");
+  background: url("../assets/photo-1481450112092-f00a4c77e381.jfif");
   background-size: cover;
   height: 110vh;
   display: flex;
@@ -188,6 +188,10 @@ main .site-title .site-background {
 
 main .site-title h1,h3 {
   margin: .3rem;
+}
+
+main .site-title h1 {
+  font-size: 4rem;
 }
 
 main .site-title .btn {
@@ -206,12 +210,10 @@ main .site-title .btn:hover {
 /*---------------- Blog Carusel -----------------*/
 
 main .blog {
-  background: url("../assets/Abract01.png");
+  background: url("../assets/Background-image-3.jpg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-size: cover;
   height: 100vh;
-  width: 100%;
-  background-size: 65%;
 }
 
 main .blog .blog-post {
@@ -229,6 +231,7 @@ main .blog-post .blog-content {
 
 main .blog-content .blog-title {
   padding: 2rem 0;
+  background: var(--white);
 }
 
 main .blog-content button.btn {
@@ -265,28 +268,6 @@ section .container .owl-nav{
 }
 /*--------------x Blog Carusel x------------*/
 
-/*-------------- Main content --------------*/
-
-#about > h1 {
-  text-align: center;
-  padding: 64px 0;
-  font-weight: bold;
-}
-
-#about .container {
-  margin: 0 32px;
-}
-
-#about p {
-  line-height: 1.8;
-}
-
-#about section {
-  padding-bottom: 64px;
-}
-
-
-/*-------------- Main content --------------*/
 
 /*------------- Site Content ----------------*/
 
@@ -590,28 +571,5 @@ footer.footer .move-up span:hover {
   nav .toggle-collapse {
     width: 80% !important;
   }
-/* Main content */
-  #about .container {
-    width: 800px;
-    margin: 0 auto;
-  }
-
-  #about section {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  #about section:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-
-  #about .pic {
-    width: 50%;
-  }
-
-  #about .info {
-    width: calc(50% - 32px);
-  }
-  /*----------x Main content x-----------------*/
 }
 /*----------------x Viewport less then of equal to 520px x--------------*/
